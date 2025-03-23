@@ -19,7 +19,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
     const [loading, setLoading] = useState(false);
-    const [account, setAccount] = useState("");
+    const [account, setAccount] = useState(""); 
     const [voting, setVoting] = useState();
     const [contract, setContract] = useState("");
     const [choices, setChoices] = useState([]);
@@ -30,7 +30,7 @@ const App = () => {
         name: "",
         proposal: "",
         address: "",
-    });
+    }); 
     const [isAlreadyCreated, setIsAlreadyCreated] = useState(false);
     const [visible, setVisible] = useState(false);
     const [ended, setEnded] = useState(false);
